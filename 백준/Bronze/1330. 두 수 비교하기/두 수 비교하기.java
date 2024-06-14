@@ -8,8 +8,8 @@ public class Main {
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        long A = Long.parseLong(st.nextToken());
-        long B = Long.parseLong(st.nextToken());
+        int A = Integer.parseInt(st.nextToken());
+        int B = Integer.parseInt(st.nextToken());
 
         if (A > B) {
             bw.write(">");
