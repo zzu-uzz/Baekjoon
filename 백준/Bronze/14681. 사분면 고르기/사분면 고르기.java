@@ -14,7 +14,7 @@ public class Main {
             bw.write("2");
         } else if (x < 0 && y < 0) {
             bw.write("3");
-        } else if (x > 0 && y < 0) {
+        } else {
             bw.write("4");
         }
 
