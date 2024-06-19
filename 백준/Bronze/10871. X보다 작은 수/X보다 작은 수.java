@@ -16,11 +16,9 @@ public class Main {
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
-        }
 
-        for (int j = 0; j < arr.length; j++) {
-            if (arr[j] < x) {
-                bw.write(String.valueOf(arr[j]) + " ");
+            if(arr[i] < x) {
+                bw.write(String.valueOf(arr[i] + " "));
             }
         }
         bw.flush();
