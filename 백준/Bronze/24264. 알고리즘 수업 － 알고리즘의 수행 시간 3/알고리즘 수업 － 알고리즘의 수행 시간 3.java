@@ -11,11 +11,9 @@ public class Main {
 
         Long n = Long.parseLong(br.readLine());
 
-        bw.write((n * n) + "\n");
-        bw.write('2');
-        bw.flush();
-
-        bw.close();
+        System.out.println(n*n);
+        System.out.println('2');
+        
         br.close();
     }
 }
